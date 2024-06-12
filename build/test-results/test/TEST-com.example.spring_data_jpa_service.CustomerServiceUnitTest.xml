@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.spring_data_jpa_service.CustomerServiceUnitTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-06-12T02:13:49" hostname="DESKTOP-SC7D1KT" time="0.156">
+  <properties/>
+  <testcase name="givenCustomers_whenFetchedByID_returnsRespectiveCustomer()" classname="com.example.spring_data_jpa_service.CustomerServiceUnitTest" time="0.119"/>
+  <testcase name="givenCustomers_whenDeleted_notReturnRemovedCustomer()" classname="com.example.spring_data_jpa_service.CustomerServiceUnitTest" time="0.021"/>
+  <testcase name="givenCustomers_whenFindAll_returnsAllCustomers()" classname="com.example.spring_data_jpa_service.CustomerServiceUnitTest" time="0.007"/>
+  <system-out><![CDATA[22:13:44.783 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.spring_data_jpa_service.CustomerServiceUnitTest]: CustomerServiceUnitTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:13:44.929 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.spring_data_jpa_service.SpringDataJpaApplication for test class com.example.spring_data_jpa_service.CustomerServiceUnitTest
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.0)
+
+2024-06-11T22:13:45.434-04:00  INFO 21984 --- [SpringDataJPA] [    Test worker] c.e.s.CustomerServiceUnitTest            : Starting CustomerServiceUnitTest using Java 17.0.11 with PID 21984 (started by subbi in C:\repos\practice\SpringDataJPA)
+2024-06-11T22:13:45.435-04:00  INFO 21984 --- [SpringDataJPA] [    Test worker] c.e.s.CustomerServiceUnitTest            : No active profile set, falling back to 1 default profile: "default"
+2024-06-11T22:13:46.195-04:00  INFO 21984 --- [SpringDataJPA] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-11T22:13:46.235-04:00  INFO 21984 --- [SpringDataJPA] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 JPA repository interfaces.
+2024-06-11T22:13:46.793-04:00  INFO 21984 --- [SpringDataJPA] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-11T22:13:46.896-04:00  INFO 21984 --- [SpringDataJPA] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-11T22:13:46.957-04:00  INFO 21984 --- [SpringDataJPA] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-11T22:13:47.378-04:00  INFO 21984 --- [SpringDataJPA] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-11T22:13:47.423-04:00  INFO 21984 --- [SpringDataJPA] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-11T22:13:47.626-04:00  INFO 21984 --- [SpringDataJPA] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:06530b6d-f741-4030-838d-a851780bf7cb user=SA
+2024-06-11T22:13:47.628-04:00  INFO 21984 --- [SpringDataJPA] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-11T22:13:48.097-04:00  INFO 21984 --- [SpringDataJPA] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-11T22:13:48.104-04:00  INFO 21984 --- [SpringDataJPA] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11T22:13:48.286-04:00  WARN 21984 --- [SpringDataJPA] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-11T22:13:48.781-04:00  INFO 21984 --- [SpringDataJPA] [    Test worker] c.e.s.CustomerServiceUnitTest            : Started CustomerServiceUnitTest in 3.641 seconds (process running for 5.188)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
